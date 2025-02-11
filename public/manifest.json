@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Link & Note Saver",
+    "version": "1.0",
+    "description": "Guarda enlaces y notas para ver después",
+    "permissions": [
+      "storage",
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "index.html"
+    },
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+    }
+  }
